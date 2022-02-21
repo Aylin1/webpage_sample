@@ -1,0 +1,66 @@
+.div {
+    display: block;
+}
+
+.body {
+    display:inline-block;
+    margin: 8px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Roboto", sans-serif;
+    color:antiquewhite;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    color: antiquewhite;
+    margin-bottom: 13px;
+    font-family: "Roboto", sans-serif;
+}
+
+.center {
+    text-align: center;
+    border: 3px solid green;
+}
+  
+.gradient {
+    background: linear-gradient(90deg,rgba(45,156,219,.6),rgba(155,81,224,.6));
+}
+
+.text-center {
+    text-align: center;
+}
+.justify-center {
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.text-white {
+    --tw-text-opacity: 1;
+    color: rgba(255,255,255,var(--tw-text-opacity));
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 25px;
+    align-self:auto;
+}
+
+.container {
+    display:inline;
+}
+
+.slider_bg_1 {
+    background-image: url(archives_raquarii.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    size: 480px;
+  }
+
+  
